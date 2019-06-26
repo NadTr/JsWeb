@@ -1,0 +1,72 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.border{
+  text-align:  center;
+  border-radius: 5px;
+  margin: .4em;
+  padding: .3em;
+  max-width: 16em;
+  height: auto;
+}
+
+
+.column{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  //height: 6em;
+}
+/*
+.bottom{
+  position: relative;
+  bottom:0;
+}*/
+img{
+  margin: auto;
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}
+p{
+  margin: auto;
+}
+
+.modal-body{
+  display: flex;
+  flex-direction: column;
+}
+textarea{
+  margin: .3em;
+}
+button{
+  margin: .2em;
+}
+/*
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+*/

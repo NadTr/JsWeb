@@ -1,0 +1,28 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+
+.container{
+  height: 600px;
+  width: 100%;
+}
+#insult{
+  color:black;
+  font-size: 1em;
+text-align: right;
+}
+#Troll{
+  border: 3px solid black;
+  border-radius: 3px;
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

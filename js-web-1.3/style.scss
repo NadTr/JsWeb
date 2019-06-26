@@ -1,0 +1,105 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Creepster|Gloria+Hallelujah|Indie+Flower|Pacifico');
+
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Creepster', cursive;
+*/
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+body{
+  margin:.3em;
+  color:black;
+  font-family: 'Creepster', cursive;
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: center;
+  background-color: black;
+  background-image: url(https://media.giphy.com/media/bsRSKZhTXgDXa/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#wrapper{
+  width: 80%;
+  height: 90%;
+  text-align: center;
+  margin:0.3em;
+margin-left: 4em;
+  background-color: white;
+   border: 1px solid black;
+   opacity: 0.6;
+ }
+
+h1{
+  font-size: 1.8em;
+  font-weight: lighter;
+
+}
+h2{
+  font-family: 'Creepster', cursive;
+  font-size: 1.4em;
+  font-weight: lighter;
+
+}
+h3{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6em;
+
+}
+
+p{
+  font-family: 'Gloria Hallelujah', cursive;
+text-align: justify;
+  font-size: 1.1em;
+  font-weight: lighter;
+  margin: .5em;
+
+
+}
+div{
+  margin: .3em;
+}
+input{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: .7em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: .7em;
+
+}
+textarea{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: .7em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: .7em;
+
+}
+.button {
+background-color: red;
+border: none;
+box-shadow: 3px 3px black;
+font-family: 'Creepster', cursive;
+font-size: .8em;
+font-weight: lighter;
+color: black;
+padding: .1em .2em;
+margin: .7em;
+text-align: center;
+}
+
+.button:hover {
+background-color: #EE6703;
+color:black;
+}

@@ -1,0 +1,30 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+.content{
+  margin:5em;
+  font-size: 1.3em;
+  text-align: center;
+
+}
+/*buttons' style*/
+
+/*black square*/
+#case {
+  display: block;
+  margin-top: 2em;
+ margin-left: auto;
+ margin-right: auto;
+  border: 2px solid black;
+  border-radius: 3px;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+
+}
